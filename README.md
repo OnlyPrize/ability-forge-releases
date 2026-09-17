@@ -70,6 +70,15 @@ then. A monster's bite is five answers.
 - **What happens then** — stack on damage, healing, a condition, or a bonus, in
   any combination. Each is added by name and expands to the two or three fields
   it needs
+- **A hit that forces a save** — like Topple: choose an attack roll and the next
+  question is whether a hit must also make a save. Set it once — the ability, a
+  DC that can be 8 + a modifier + proficiency, and in words anything the system
+  cannot do ("pushed 10 ft") — then mark which damage, condition or bonus waits
+  for a failure. It is written as a second activity on the same item; with
+  Midi-QOL it is rolled for the targets hit, or from the button on the attack's
+  chat card, and a failure applies the condition
+- **Normal and long range** — an attack built for an NPC is a natural weapon, as
+  the official monsters' are, so a ranged one can be 60/120 ft
 - **Answer in plain language** — damage is typed the way you say it (`2d6 + 3`)
   and split into the structured shape the system wants
 - **A sentence at the bottom** shows what will read on the sheet, and updates as
