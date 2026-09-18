@@ -1,4 +1,4 @@
-# Ability Forge
+# Zenith Forge
 
 **Stop wiring activities by hand.** A Foundry VTT module for D&D 5e that turns
 "what does this ability do?" into a finished activity — attack roll, damage,
@@ -45,7 +45,7 @@ normally means building three separate things and knowing how they connect:
 3. an **ActiveEffect** — a separate document with `statuses`, changes, and a duration,
    whose `_id` then has to be pasted back into the activity's `effects` list
 
-Ability Forge writes all three and links them.
+Zenith Forge writes all three and links them.
 
 ## How it works
 
@@ -199,7 +199,7 @@ real Active Effect, so the creature actually stops taking the damage rather than
 only being described as resistant.
 
 The window stays open so you can add a whole creature's worth in one go; tick
-**Open Ability Forge afterwards** to keep building on the one you just made.
+**Open Zenith Forge afterwards** to keep building on the one you just made.
 
 > กด **สร้าง** แล้วเลือก **เริ่มจากของสำเร็จรูป** — เลือก preset แล้วปรับชื่อ / ลูกเต๋า / เซฟ / สถานะ / stat ที่เปลี่ยน ในหน้าต่างเดียวกัน ได้ item ที่ต่อ activity ถูกแล้ว
 > ค่าโจมตีกับ DC ดึงจากค่าของตัวเจ้าของเอง ไม่ต้องกรอก
@@ -263,7 +263,7 @@ tells the truth after you edit the numbers. A preview panel shows it as you go.
 ## Who can use it
 
 Two world settings, both **Gamemaster** by default, decide who the module is
-for. They appear under *Configure Settings → Ability Forge*, and only a
+for. They appear under *Configure Settings → Zenith Forge*, and only a
 Gamemaster can see or change them.
 
 | Setting | Controls |
@@ -308,8 +308,12 @@ into **Manifest URL** at the bottom of that window, and press **Install**:
 https://github.com/OnlyPrize/ability-forge-releases/releases/latest/download/module.json
 ```
 
-Then turn on **Ability Forge** in your world under **Manage Modules**. Foundry
+Then turn on **Zenith Forge** in your world under **Manage Modules**. Foundry
 checks the same address for updates, so new versions appear on their own.
+
+> The module was called **Ability Forge** until 0.18.1. The id, the address
+> above and everything you have already built with it are unchanged — an
+> existing install just updates to the new name.
 
 > **ภาษาไทย:** ในแท็บ Add-on Modules กด **Install Module** วางลิงก์ด้านบนลงช่อง
 > **Manifest URL** แล้วกด **Install** จากนั้นเปิดใช้ในเวิลด์ที่ **Manage Modules**
