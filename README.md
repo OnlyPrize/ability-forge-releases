@@ -305,20 +305,22 @@ In Foundry's **Add-on Modules** tab choose **Install Module**, paste this addres
 into **Manifest URL** at the bottom of that window, and press **Install**:
 
 ```
-https://github.com/OnlyPrize/ability-forge-releases/releases/latest/download/module.json
+https://github.com/OnlyPrize/zenith-forge-releases/releases/latest/download/module.json
 ```
 
 Then turn on **Zenith Forge** in your world under **Manage Modules**. Foundry
 checks the same address for updates, so new versions appear on their own.
 
-> The module was called **Ability Forge** until 0.18.1. The id, the address
-> above and everything you have already built with it are unchanged — an
-> existing install just updates to the new name.
+> The module was called **Ability Forge** until 0.18.1, and its repository
+> `ability-forge-releases` until 0.18.2. GitHub forwards the old address, so an
+> install made with it keeps updating — but the one above is the address to
+> hand out now. The module's id, and everything you have already built with it,
+> never changed.
 
 > **ภาษาไทย:** ในแท็บ Add-on Modules กด **Install Module** วางลิงก์ด้านบนลงช่อง
 > **Manifest URL** แล้วกด **Install** จากนั้นเปิดใช้ในเวิลด์ที่ **Manage Modules**
 
-Found a problem? Open an issue at https://github.com/OnlyPrize/ability-forge-releases/issues.
+Found a problem? Open an issue at https://github.com/OnlyPrize/zenith-forge-releases/issues.
 
 ## License
 
