@@ -16,7 +16,8 @@ linked together correctly.
 | **Magic item wizard** | 21 item kinds, 8 kinds of power, charges, +1/+2/+3, spell casting with upcast — in the same window |
 | **Icon picker** | ~7,300 pictures across 13 shipped folders, plus a folder of your own |
 | **Who can use it** | Gamemaster only out of the box; two role settings if you want to share it |
-| **Tested** | 437 assertions, none of which need Foundry running |
+| **Edit what exists** | Read any activity back into the same four questions and write over it — yours, the system's, a compendium's |
+| **Tested** | 642 assertions, none of which need Foundry running |
 
 ### One button
 
@@ -27,6 +28,7 @@ question itself.
 | Open it from | What happens |
 |---|---|
 | An item sheet — Activities tab or the header menu | Opens on that item, ready to give it another use |
+| The hammer on one activity’s row | Opens that use, filled in, ready to change |
 | A creature sheet — Features or Inventory tab, or the header menu | Opens with the tab you pressed it on already chosen, and every other choice still one click away |
 | The Items sidebar | Opens with nothing assumed |
 | Right-click an item row · click a picture on an item sheet · drop an image file · hover and press Ctrl+V | **Change icon**, as before |
@@ -48,8 +50,9 @@ Ability Forge writes all three and links them.
 ## How it works
 
 Press **Create**. The first step asks what you are making — a feature or action,
-a spell, a magic item, or another use for the item you already have open — and
-everything after that is the questions that thing actually needs.
+a spell, a magic item, another use for the item you already have open, or a
+change to something that exists already — and everything after that is the
+questions that thing actually needs.
 
 The rule the whole window follows is **ask only what is needed, and only when it
 is needed**. A control appears once the answer before it makes the question
@@ -101,6 +104,23 @@ then. A monster's bite is five answers.
   Ctrl+V over an icon. Either way it is uploaded to the module's own persistent
   storage and used immediately; no file dialog, no manual copying
 - **Deep mode** exposes every raw field, including custom attribute keys
+
+### Changing something that already exists
+
+The same four questions, filled in from what is already there. Press the hammer
+on a row of an item's Activities tab, or pick *Change something that exists* on
+the wizard's first question and choose the item and the use from two lists.
+
+- It reads back **anything**, not only what this module built: a spell from the
+  system, a monster feature from a compendium, an item somebody imported
+- The item's own **name and icon** are edited in the same window, and written
+  only when you change them. The description is left alone
+- A **save that follows a hit** comes with the attack and is saved with it, with
+  or without Midi-QOL; switch it off and it is removed
+- **Only what the wizard asks about is written back.** How a spell scales, what
+  it consumes, an enchantment, another module's settings — all untouched. So are
+  the damage a successful save still takes, an effect's own name and whether it
+  lands on a success: not asked about, and not reset either
 
 ### Changing the icon of something that already exists
 
