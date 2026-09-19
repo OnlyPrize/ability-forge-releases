@@ -311,11 +311,15 @@ https://github.com/OnlyPrize/zenith-forge-releases/releases/latest/download/modu
 Then turn on **Zenith Forge** in your world under **Manage Modules**. Foundry
 checks the same address for updates, so new versions appear on their own.
 
-> The module was called **Ability Forge** until 0.18.1, and its repository
-> `ability-forge-releases` until 0.18.2. GitHub forwards the old address, so an
-> install made with it keeps updating — but the one above is the address to
-> hand out now. The module's id, and everything you have already built with it,
-> never changed.
+> **Upgrading from Ability Forge?** This was called Ability Forge until 0.18.1,
+> and in 0.19.0 its id changed too, which means Foundry treats it as a new
+> module and will not offer it as an update. **Uninstall Ability Forge, then
+> install from the address above** — the address itself has not changed.
+>
+> Nothing you built is affected: activities and effects are ordinary dnd5e data.
+> Your world's settings are copied across on the first load, a save that follows
+> an attack is still recognised, and the old module's uploads folder is left
+> where it is so pictures already in use keep working.
 
 > **ภาษาไทย:** ในแท็บ Add-on Modules กด **Install Module** วางลิงก์ด้านบนลงช่อง
 > **Manifest URL** แล้วกด **Install** จากนั้นเปิดใช้ในเวิลด์ที่ **Manage Modules**
